@@ -1,6 +1,6 @@
 ## The installation procedure for Docker
 
-### *Prerequisites*
+### Prerequisites
 
   Official Links: [*Docker*](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
 
