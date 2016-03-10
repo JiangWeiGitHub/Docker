@@ -16,7 +16,7 @@
 + Add the new *GPG* key.<p>
 `sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D`<p>
 
-+ Create & edit the /etc/apt/sources.list.d/docker.list<p>
++ Create & Edit the /etc/apt/sources.list.d/docker.list<p>
 `vim /etc/apt/sources.list.d/docker.list`<p>
   Add the following sentence to this file.<p>
 `deb https://apt.dockerproject.org/repo ubuntu-trusty main`<p>
@@ -53,4 +53,6 @@
 `sudo docker run hello-world`<p>
   *This command downloads a test image and runs it in a container. When the container runs, it prints an informational message. Then, it exits.*<p>
 
-#### Done
+*** 
+
+#### Done ^_^
