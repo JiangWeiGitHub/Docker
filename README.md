@@ -1,6 +1,6 @@
 ## The installation procedure for Docker
 
-### Prerequisites
+### *Prerequisites*
 
   Official Links: [*Docker*](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
 
@@ -52,6 +52,20 @@
 + Verify docker is installed correctly.<p>
 `sudo docker run hello-world`<p>
   *This command downloads a test image and runs it in a container. When the container runs, it prints an informational message. Then, it exits.*<p>
+
+#### Upgrade Docker
+`sudo apt-get upgrade docker-engine`<p>
+
+#### Uninstallation
+`sudo apt-get purge docker-engine`<p>
+
+To uninstall the Docker package and dependencies that are no longer needed:<p>
+`sudo apt-get autoremove --purge docker-engine`<p>
+
+The above commands will not remove images, containers, volumes, or user created configuration files on your host. If you wish to delete all images, containers, and volumes run the following command:<p>
+`rm -rf /var/lib/docker`<p>
+
+  *You must delete the user created configuration files manually.*<p>
 
 *** 
 
