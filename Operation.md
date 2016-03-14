@@ -26,11 +26,7 @@
 * Get the container ID<p>
 `docker ps -l`<p>
 
- CONTAINER ID
- 2bf7a119a38f
- 
-
-        from django.contrib.auth.models import User, Group
-        from rest_framework import serializers
+        CONTAINER ID
+        2bf7a119a38f
 
 
