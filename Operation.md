@@ -1,6 +1,6 @@
 ###### Goal: create a new debian image which contains a 'hello world' file, then save it as a local package.
 
-References: [**Click**](https://segmentfault.com/a/1190000002766882)
+References: [**One**](https://segmentfault.com/a/1190000002766882); [**Two**](https://segmentfault.com/a/1190000000586840)
 
 * Get default debian image from docker hub<p>
 `docker pull debian`<p>
