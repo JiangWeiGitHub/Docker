@@ -40,9 +40,7 @@ References: [**Click**](https://segmentfault.com/a/1190000002766882)
     *Usage:	docker commit -a "yourName" -m "yourCommit" containerID repositoryOldName/yourNewName:tag*<p>
 
 * Export image<p>
-`docker save 44e840e330d0 > ./hello.tar`<p>
-  *PS:*<p>
-    *44e840e330d0: image ID*<p>
+`docker save debian/hello:v0.0.1 > ./hello.tar`<p>
 
-* import image<p>
+* Import image<p>
 `docker load < ./hello.tar`<p>
