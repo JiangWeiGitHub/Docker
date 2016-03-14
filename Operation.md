@@ -19,7 +19,7 @@ References: [**Click**](https://segmentfault.com/a/1190000002766882)
 `echo "hello world > /message.txt"`<p>
 
 * Quit from this container<p>
-`quit`<p>
+`exit`<p>
 
 <p>
 --------------------------Back to working console--------------------------
@@ -29,8 +29,8 @@ References: [**Click**](https://segmentfault.com/a/1190000002766882)
 `docker ps -l`<p>
   *Just like:*
 
-        CONTAINER ID
-        2bf7a119a38f
+        CONTAINER ID ...
+        2bf7a119a38f ...
 
 * Save image<p>
 `docker commit -a "john" -m "added a hello world file" 1193bac93767 debian/hello:v0.0.1`<p>
@@ -39,3 +39,10 @@ References: [**Click**](https://segmentfault.com/a/1190000002766882)
     *-m: Commit message*<p>
     *Usage:	docker commit -a "yourName" -m "yourCommit" containerID repositoryOldName/yourNewName:tag*<p>
 
+* Export image<p>
+`docker save 44e840e330d0 > ./hello.tar`<p>
+  *PS:*<p>
+    *44e840e330d0: image ID*<p>
+
+* import image<p>
+`docker load < ./hello.tar`<p>
