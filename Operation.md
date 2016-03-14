@@ -25,8 +25,14 @@
 
 * Get the container ID<p>
 `docker ps -l`<p>
-
+  *Just like:*
         CONTAINER ID
         2bf7a119a38f
 
+* Save image<p>
+`docker commit -a "john" -m "added a hello world file" 1193bac93767 debian/hello:v0.0.1`<p>
+  *PS:*<p>
+    *-a: Author*<p>
+    *-m: Commit message*<p>
+    *Usage:	docker commit -a "yourName" -m "yourCommit" containerID repositoryOldName/yourNewName:tag*<p>
 
