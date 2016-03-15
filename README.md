@@ -68,13 +68,16 @@ The above commands will not remove images, containers, volumes, or user created 
   *You must delete the user created configuration files manually.*<p>
 
 #### Copy file & folder from host to container or oppositely
-file: `docker cp foo.txt 5c906b94be2d:/foo.txt`<p>
-file: `docker cp 5c906b94be2d:/foo.txt foo.txt`<p>
-folder: `docker cp foo 5c906b94be2d:/foo`<p>
-folder: `docker cp 5c906b94be2d:/foo foo`<p>
+file: `docker cp foo.txt [container-id]:/foo.txt`<p>
+file: `docker cp [container-id]:/foo.txt foo.txt`<p>
+folder: `docker cp foo [container-id]:/foo`<p>
+folder: `docker cp [container-id]:/foo foo`<p>
 
 #### Come back to the previous container
-`docker start -ia 5c906b94be2d`<p>
+`docker start -ia [container-id]`<p>
+
+#### Enter a running docker
+`docker exec -it [container-id] bash`<p>
 
 *** 
 
