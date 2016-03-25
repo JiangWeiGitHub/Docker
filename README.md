@@ -14,7 +14,7 @@
 `sudo apt-get install apt-transport-https ca-certificates`<p>
 
 + Add the new *GPG* key.<p>
-`sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 AAAD1D3563E5A736A4F561EE884D6308E89713C4`<p>
+`sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 F76221572C52609D`<p>
 
 + Create & Edit the /etc/apt/sources.list.d/docker.list<p>
 `vim /etc/apt/sources.list.d/docker.list`<p>
