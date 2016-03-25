@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-  Official Links: [*Docker*](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+  Official Links: [*Docker for Ubuntu*](https://docs.docker.com/engine/installation/linux/ubuntulinux/) / [*Docker for Debian*](https://docs.docker.com/engine/installation/linux/debian/)
 
   My Platform: Ubuntu 14.04 64bit
 
