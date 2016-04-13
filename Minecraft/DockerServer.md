@@ -13,6 +13,11 @@ Related Reference: [*Click*](https://hub.docker.com/r/itzg/minecraft-server/)
 
 + Run image<p>
 `docker run -ti -e EULA=TRUE --privileged -p 25565:25565 -e VERSION=1.7.2 itzg/minecraft-server /bin/bash`<p>
+*PS:*<p>
+*If you are not in TIANCHAO, you do not have to do this!*<p>
+*You just use docker like this:*<p>
+`docker run -d -it -e EULA=TRUE -p 25565:25565 -e VERSION=1.7.2 --name mc itzg/minecraft-server`<p>
+*That's all, you can directly goto "Connect server with client"*<p>
 
 + Install sshuttle<p>
 `apt-get install sshuttle`<p>
