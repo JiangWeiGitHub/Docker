@@ -17,7 +17,7 @@ Related Reference: [*Click*](https://hub.docker.com/r/itzg/minecraft-server/)
 *If you are not in TIANCHAO, you do not have to do this!*<p>
 *You just use docker like this:*<p>
 `docker run -d -it -e EULA=TRUE -p 25565:25565 -e VERSION=1.7.2 --name mc itzg/minecraft-server`<p>
-*That's all, you can directly goto "Connect server with client"*<p>
+*That's all, you can directly goto "Connect server with client" section.*<p>
 
 + Install sshuttle<p>
 `apt-get install sshuttle`<p>
@@ -74,6 +74,8 @@ Related Reference: [*Click*](https://hub.docker.com/r/itzg/minecraft-server/)
 + Connect server with client
   - Run client<p>
   - Configure server network parameters<p>
+  ![1](https://docs.docker.com/kitematic/images/minecraft-login.png)<p>
+  ![2](https://docs.docker.com/kitematic/images/minecraft-server-address.png)<p>
   *PS: Just like ?.?.?.?:25565*<p>
 
 + Done
