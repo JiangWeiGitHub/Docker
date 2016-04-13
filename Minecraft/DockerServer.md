@@ -23,19 +23,20 @@ Related Reference: [*Click*](https://hub.docker.com/r/itzg/minecraft-server/)
 *PS: Use your own server ip.*<p>
 
 + Open another docker console<p>
+  - Open a new terminal console<p>
   - Find the docker container's ID<p>
   `docker ps`<p>
   - Go into this running container<p>
-  `docker exec -it *container's ID* bash`<P>
+  `docker exec -it "container's ID" bash`<P>
   - Go into *data* folder<p>
   `cd /data`<p>
   - First run server<p>
   `/start-minecraft`<p>
-  *PS: There'll create some new fils which include eula.txt*<P>
+  *PS: There'll create some new fils which include eula.txt*<p>
   - Edit *eula.txt* file<p>
   `nano /data/eula.txt`<p>
   *Change EULA=false to EULA=TRUE*<p>
-  - Quit sshuttle
+  - Quit sshuttle<p>
   *Go into the first console, ctrl + c to quit the server, then go back to the second console.*<p>
   - Rerun server<p>
   `/start-minecraft`<p>
@@ -65,4 +66,9 @@ Related Reference: [*Click*](https://hub.docker.com/r/itzg/minecraft-server/)
           [09:04:43] [Server thread/INFO]: Preparing spawn area: 93%
           [09:04:44] [Server thread/INFO]: Done (11.786s)! For help, type "help" or "?"
 
-  
++ Connect server with client
+  - Run client<p>
+  - Configure server network parameters<p>
+  *PS: Just like ?.?.?.?:25565*<p>
+
++ Done
