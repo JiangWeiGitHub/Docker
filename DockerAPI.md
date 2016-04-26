@@ -2,12 +2,12 @@
 Use docker's API to connect docker's daemon from docker's client in LAN environment.<p>
 
 # Prerequisite<p>
-+ Owncloud (docker image)<p>
-+ Curl (cmdline tool on Ubuntu 16.04 64bit)<p>
-+ Postman (visualization tool on Windows 7 Ultimate 64bit)<p>
++ **Owncloud** (docker image)<p>
++ **Curl** (cmdline tool on Ubuntu 16.04 64bit)<p>
++ **Postman** (visualization tool on Windows 7 Ultimate 64bit)<p>
 
 # Reference
-[**Docker Remote API v1.23**]<https://docs.docker.com/engine/reference/api/docker_remote_api_v1.23/>
+[**Docker Remote API v1.23**](https://docs.docker.com/engine/reference/api/docker_remote_api_v1.23/)<p>
 
 # Precedure<p>
 + **service docker stop**<p>
