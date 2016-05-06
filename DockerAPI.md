@@ -19,6 +19,8 @@ PS: Rerun docker daemon, point the service to listen to tcp protocol on port 237
 
 + **docker -H tcp://0.0.0.0:2375 run -d -p 80:80 owncloud**<p>
 PS: Use another console to run owncloud with tcp protocol.<p>
+`OR You Can Use This Commend Like Below:`<p>
+`docker -H tcp://127.0.0.1:2375 run -d -p 80:80 -v /home/wenshang:/var/www/html owncloud`<p>
 
 + **docker -H tcp://0.0.0.0:2375 ps**<p>
   ```
