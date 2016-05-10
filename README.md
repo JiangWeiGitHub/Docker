@@ -81,6 +81,17 @@ folder: `docker cp [container-id]:/foo foo`<p>
 #### Enter a running docker
 `docker exec -it [container-id] bash`<p>
 
+#### Use volume which be deleted by docker
+`docker run -it -v /awesome ubuntu`<p>
+`or`<p>
+`docker run -it -v hehehehe:/home ubuntu`<p>
+
+#### Use volume which be deleted by user
+`docker run -it -v /awesome:/home ubuntu`<p>
+
+#### delete volume with docker volume commend
+`docker volume rm <id>`<p>
+
 *** 
 
 #### Done ^_^
