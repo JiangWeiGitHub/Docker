@@ -1,4 +1,7 @@
-#### Create a new debian image which contains a 'hello world' file, then save it as a local package.<p>
+#### Create a new debian image
+#### which contains a 'hello world' file
+#### then save it as a local package
+#### push it to docker hub finally
 
 References: [**One**](https://segmentfault.com/a/1190000002766882) [**Two**](https://segmentfault.com/a/1190000000586840)
 
@@ -39,7 +42,7 @@ References: [**One**](https://segmentfault.com/a/1190000002766882) [**Two**](htt
     *-m: Commit message*<p>
     *Usage:	docker commit -a "yourName" -m "yourCommit" containerID repositoryOldName/yourNewName:tag*<p>
 
-* Push to docker hub
+* Push to docker hub<p>
 `docker login --username=yourhubusername --email=youremail@company.com`<p>
 `docker push maryatdocker/docker-whale`<p>
 
