@@ -39,6 +39,10 @@ References: [**One**](https://segmentfault.com/a/1190000002766882) [**Two**](htt
     *-m: Commit message*<p>
     *Usage:	docker commit -a "yourName" -m "yourCommit" containerID repositoryOldName/yourNewName:tag*<p>
 
+* Push to docker hub
+`docker login --username=yourhubusername --email=youremail@company.com`<p>
+`docker push maryatdocker/docker-whale`<p>
+
 * Export image<p>
 `docker save debian/hello:v0.0.1 > ./hello.tar`<p>
 
