@@ -1,7 +1,4 @@
-#### Create a new debian image
-#### which contains a 'hello world' file
-#### then save it as a local package
-#### push it to docker hub finally
+#### Create a new debian image which contains a 'hello world' file, then save it as a local package, and push it to docker hub finally
 
 References: [**One**](https://segmentfault.com/a/1190000002766882) [**Two**](https://segmentfault.com/a/1190000000586840)
 
