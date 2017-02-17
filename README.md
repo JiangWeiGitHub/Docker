@@ -95,3 +95,7 @@ folder: `docker cp [container-id]:/foo foo`<p>
 *** 
 
 #### Done ^_^
+
+
+### Using Aliyun with Binary Version
+`dockerd -H tcp://0.0.0.0:6666 --registry-mirror=https://no1pfk8z.mirror.aliyuncs.com`
