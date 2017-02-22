@@ -31,6 +31,10 @@
 
 ### Miscellaneous
 
+`--volume` -> [*wisnuc/appifi-recipes reference*](https://github.com/wisnuc/appifi-recipes/blob/release/doc/customizationParameters.md)
+
 `--net` -> API `HostConfig -> NetworkMode`
 
 `--cap-add` -> API `HostConfig -> CapAdd`
+
+`--env` -> API `Env`
