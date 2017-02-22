@@ -28,6 +28,10 @@
 
 `docker -H tcp://127.0.0.1:1688 run --cap-add SYS_RESOURCE --volume /a:/media/share --volume /b:/media/timemachine --net "host" --env AVAHI=1 cptactionhank/netatalk:latest`
 
+or
+
+`docker -H tcp://127.0.0.1:1688 run --privileged --volume /a:/media/share --volume /b:/media/timemachine --net "host" --env AVAHI=1 cptactionhank/netatalk:latest`
+
 
 ### Miscellaneous
 
